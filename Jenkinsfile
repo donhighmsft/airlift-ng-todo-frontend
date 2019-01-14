@@ -8,7 +8,7 @@ pipeline {
   stages {
     stage('Cloning Git') {
       steps {
-        git 'https://github.com/donhighmsft/airlift-node-todo-frontend.git'
+        git 'https://github.com/donhighmsft/airlift-ng-todo-frontend'
       }
     }
     stage('Building image') {
